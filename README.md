@@ -1,3 +1,18 @@
+# Steps create Monorepo ( React.js & Next.js & libs ( Utils & Types ))
+
+- Create Main work space
+  - :smile_cat: npx create-nx-workspace name-work-space
+ (you can select another package manager)
+  - :eye_speech_bubble: select Integrated -> apps 
+- add creator plugins to Dependence React.js & Next.js & @nx/js
+  - :smile_cat: npm i -D @nx/react @nx/next @nx/js
+  - :smile_cat: npm nx g @nx/react:app
+  - :smile_cat: npm nx g @nx/next:app
+- also we can create share lib for typing & utils and ect...
+  - :smile_cat: npm nx g @nx/js:lib name utils
+  - :smile_cat: npm nx g @nx/js:lib name types
+
+
 # Monorepo
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
